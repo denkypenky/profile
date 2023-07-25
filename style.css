@@ -25,6 +25,13 @@ body {
     }
   }
 
+ h1 {
+  text-align: center;
+  line-height:  1.5;
+  color: #ea8971;
+  font-size: 50px;
+  padding: 2px;
+ }
 
 img {
   width: 200px;
@@ -32,13 +39,7 @@ img {
   box-shadow:  0 5px 20px #e9c46a;
   display: block;
   margin: auto;
-
 }
- h1 {
-  text-align: center;
-  line-height:  1.5;
-  color: #ea8971;
- }
 
  div {
   text-align: center;
@@ -48,19 +49,42 @@ img {
  }
 
 h4 {
-  /* font-weight: bold; */
   color: #ea8971;
 }
 
  li {
   color: #e76f51;
   list-style: none;
+  display: inline;
+  padding: 10px;
+  margin-left: 50px;
  }
 
-h2, h3{
+ li a {
+  text-decoration: none;
+   color: #e76f51
+ }
+
+ a:hover{
+  color: #e9c46a;
+ }
+
+h2{
 color: #ea8971;
 }
 
 #underline{
+  margin-left: -500px;
   text-decoration: underline;
+}
+
+p{
+  border: 2px solid;
+  padding: 10px;
+  box-shadow: 0 5px 20px #e9c46a;
+
+}
+
+ul{
+  margin-left: -120px;
 }
